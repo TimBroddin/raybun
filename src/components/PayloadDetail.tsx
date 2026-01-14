@@ -29,7 +29,7 @@ export function PayloadDetail({ payload }: PayloadDetailProps) {
   if (!payload) {
     return (
       <Box flexDirection="column" padding={1}>
-        <Text color="gray" italic>
+        <Text color="white" italic>
           Select a payload to view details
         </Text>
       </Box>

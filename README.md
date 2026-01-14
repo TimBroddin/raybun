@@ -4,11 +4,14 @@ A lightweight terminal-based viewer for [Ray](https://myray.app) debug output. A
 
 > **Experimental** - This is an early release. Please report issues!
 
+![Raybun Screenshot](screenshot.png)
+
 ## Features
 
 - Full TUI with split-panel layout (payload list + detail view)
 - Syntax highlighting for SQL, JSON, HTML, XML, PHP, JavaScript, CSS
 - Follow mode - automatically scroll to new payloads
+- Search/filter payloads by type, label, content, file, or function
 - Support for all Ray payload types (logs, dumps, queries, exceptions, tables, etc.)
 - Keyboard-driven navigation
 - Works with Laravel Ray, PHP Ray, and any Ray-compatible client
@@ -61,6 +64,8 @@ ray()->exception(new Exception('Something went wrong'));
 | `g` | Go to top |
 | `G` | Go to bottom (enable follow) |
 | `PgUp` / `PgDn` | Page up/down |
+| `/` / `s` | Search/filter payloads |
+| `Esc` | Clear search |
 | `f` | Toggle follow mode |
 | `c` | Clear all payloads |
 | `?` / `h` | Show help |

@@ -46,10 +46,10 @@ export function PayloadList({ payloads, selectedIndex, height }: PayloadListProp
   if (payloads.length === 0) {
     return (
       <Box flexDirection="column" padding={1}>
-        <Text color="gray" italic>
+        <Text color="white" italic>
           Waiting for payloads...
         </Text>
-        <Text color="gray" dimColor>
+        <Text color="white">
           Send ray() calls from your Laravel app
         </Text>
       </Box>
