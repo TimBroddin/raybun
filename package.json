@@ -1,5 +1,5 @@
 {
-  "name": "raybun",
+  "name": "raybun-cli",
   "version": "0.1.0",
   "description": "A lightweight terminal-based viewer for Ray debug output",
   "author": "Tim Broddin",

@@ -20,11 +20,11 @@ A lightweight terminal-based viewer for [Ray](https://myray.app) debug output. A
 
 ```bash
 # Run directly with bunx (no install needed)
-bunx raybun
+bunx raybun-cli
 
 # Or install globally
-bun install -g raybun
-raybun
+bun install -g raybun-cli
+raybun-cli
 
 # Or clone and run locally
 git clone https://github.com/timbroddin/raybun.git
@@ -39,10 +39,10 @@ Start Raybun, then send debug output from your Laravel/PHP app:
 
 ```bash
 # Start the viewer (default port 23517)
-bunx raybun
+bunx raybun-cli
 
 # Or specify a custom port
-bunx raybun --port 23518
+bunx raybun-cli --port 23518
 ```
 
 In your Laravel/PHP code:
